@@ -82,6 +82,9 @@ p{
     background-image: url("../assets/wow.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
+    @media screen and (max-width: 680px) {
+        padding-bottom: 10rem;
+    }
 
 }
 .section--cool{
